@@ -37,11 +37,5 @@ cp ./.tmux.conf $HOME/.tmux.conf
 sudo cp ./.zprofile /root/.zprofile
 sudo cp ./.tmux.conf /root/.tmux.conf
 
-# TPM install requires tmux to be running
-git clone --depth 1 https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-tmux start-server
-tmux new-session -d
-sleep 1 # to give new-session time to init
-tmux source ~/.tmux.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ~/.tmux/plugins/tpm/scripts/install_plugins.sh
-tmux kill-server
