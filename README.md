@@ -1,2 +1,2 @@
 # dotfiles
-[Imgur](https://i.imgur.com/4mJgzPb.png)
+<img src="https://i.imgur.com/4mJgzPb.png" width="500">
