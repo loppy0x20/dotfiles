@@ -34,9 +34,11 @@ if [ -f /etc/os-release ]; then
 fi
 
 cp ./.zprofile $HOME/.zprofile
+cp ./.zshrc $HOME/.zshrc
 cp ./.tmux.conf $HOME/.tmux.conf
 
 sudo cp ./.zprofile /root/.zprofile
+sudo cp ./.zshrc    /root/.zshrc
 sudo cp ./.tmux.conf /root/.tmux.conf
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
