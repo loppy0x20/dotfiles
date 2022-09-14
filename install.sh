@@ -30,6 +30,8 @@ if [ -f /etc/os-release ]; then
         sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
         # FPP - used with tmux
+    fi
+fi
 
 cp ./.zprofile $HOME/.zprofile
 cp ./.tmux.conf $HOME/.tmux.conf
