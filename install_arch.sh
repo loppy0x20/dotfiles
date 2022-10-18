@@ -51,7 +51,7 @@ if [ -f /etc/os-release ]; then
     fi
 fi
 
-cp ./.zprofile $HOME/.zprofile
-cp ./.zshrc $HOME/.zshrc
+cp $(PWD)/.zprofile $HOME/.zprofile
+cp $(PWD)/.zshrc $HOME/.zshrc
 
 chsh -s $(which zsh)
