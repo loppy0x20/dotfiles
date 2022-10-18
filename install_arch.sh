@@ -54,3 +54,4 @@ fi
 cp ./.zprofile $HOME/.zprofile
 cp ./.zshrc $HOME/.zshrc
 
+chsh -s $(which zsh)
