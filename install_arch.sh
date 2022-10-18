@@ -17,9 +17,5 @@ if [ -f /etc/os-release ]; then
     fi
 fi
 
-sudo cp ./.zprofile /root/.zprofile
-sudo cp ./.zshrc    /root/.zshrc
-sudo cp ./.tmux.conf /root/.tmux.conf
-
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ~/.tmux/plugins/tpm/scripts/install_plugins.sh
