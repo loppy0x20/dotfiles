@@ -29,6 +29,7 @@ if [ -f /etc/os-release ]; then
         python-pip \
         smbclient \
         openssh \
+        git \
         tmux \
         tree \
         tzdata \
