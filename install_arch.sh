@@ -7,8 +7,6 @@ if [ -f /etc/os-release ]; then
         pacman -Syy --noconfirm && \
         pacman -S --noconfirm --disable-download-timeout --verbose \
         aws-cli \
-        zsh \
-        base-devel \
         ca-certificates \
         cifs-utils \
         curl \
